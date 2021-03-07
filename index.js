@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
   M.Sidenav.init(elems);
   elems = document.querySelectorAll(".collapsible");
   M.Collapsible.init(elems);
+  elems = document.querySelectorAll(".modal");
+  M.Modal.init(elems);
   let carousel = document.querySelectorAll(".carousel");
   let element = M.Carousel.init(carousel, {
     fullWidth: true,
@@ -12,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let i = 0;
   setInterval(() => {
-    i == 2 ? (i = 0) : console.log(i);
+    i == 5 ? (i = 0) : console.log(i);
     setTimeout(() => {
       element[i].next();
       i++;

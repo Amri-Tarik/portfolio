@@ -120,8 +120,8 @@ hr {
 .stylish {
   border: 2px solid var(--primary) !important;
   border-radius: 10px;
-  position: relative;
-  top: 8px;
+  /* position: relative; */
+  /* top: 8px; */
   background-color: rgba(236, 236, 236, 0.7);
   font-weight: 500;
   font-size: 1.3em;
