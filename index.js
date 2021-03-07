@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let i = 0;
   setInterval(() => {
-    i == 5 ? (i = 0) : console.log(i);
+    i == 5 ? (i = 0) : (i = i);
     setTimeout(() => {
       element[i].next();
       i++;
